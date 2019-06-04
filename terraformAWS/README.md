@@ -16,4 +16,12 @@ This will download AWS relate packages under.terraform directoy.
   * The latest Ubuntu LTS AMI (AMI should be discovered dynamically, not hard-coded)
   * A Security Group enabling access only on 22, 80, 443 from 5.148.131.186/32
   * Uses SSH public key from path supplied as an variable 
-* Created and Uses an S3 bucket as the Terraform backend (to store state)
+* Created and Uses an S3 bucket as the Terraform backend (to store state) it is storing the terraform.state file under bucket
+
+
+I have put the follwowing file under .gitignore file.
+
+**/.terraform
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/terraform.tfvars
