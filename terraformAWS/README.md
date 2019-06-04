@@ -22,6 +22,9 @@ This will download AWS relate packages under.terraform directoy.
 I have put the follwowing file under .gitignore file.
 
 **/.terraform
+
 **/terraform.tfstate
+
 **/terraform.tfstate.backup
+
 **/terraform.tfvars
