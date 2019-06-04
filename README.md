@@ -11,7 +11,14 @@
 
 
 ## Exercises
-x   
+### Generate 100 files
+* Each file should contain a line with between 1 and 65 randomly chosen
+  printable characters (both the number of the characters and the characters
+  themselves are random)
+* Line "This is every 5th file!" should appear in every 5th file
+* Every 7th file ignores the previous two rules and contains the concatencated
+  contents of all of the previous files.
+* Write test-suite for your implementation.
 
 ### Write a Terraform code that
 * Creates an EC2 instance with
