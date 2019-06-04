@@ -12,9 +12,11 @@ I have created the two solutions 1 is using go language code and second one is u
 ## Solution 1: go-lang code
 ### How to run go code.
 * .  go run filehandling.go
+
 Above command will create the 100 files in current directory with names file_1.txt,file_3.txt.....file_100.txt
 
 ## Solution 1: Bash shell script
 ### How to run shell script.
 * .  chmod 766 && ./filehandling.sh
+
 above command will create the 100 files in /tmp/files  directory with names file_1.txt,file_3.txt.....file_100.txt
