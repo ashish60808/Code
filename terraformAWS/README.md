@@ -27,4 +27,5 @@ I have put the follwowing file under .gitignore file.
 
 **/terraform.tfstate.backup
 
+
 **/terraform.tfvars
