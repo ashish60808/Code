@@ -20,3 +20,11 @@ Above command will create the 100 files in /tmp  directory with names file_1.txt
 * .  chmod 766 && ./filehandling.sh
 
 above command will create the 100 files in /tmp/files  directory with names file_1.txt,file_3.txt.....file_100.txt
+
+
+## Test Cases for the above implementation
+### How to run shell script.
+* .  chmod 766 && ./testCases.sh
+
+above command will run the test cases as per the rules for files in /tmp/files  directory with names file_1.txt,file_3.txt.....file_100.txt
+verbose the results on Console
