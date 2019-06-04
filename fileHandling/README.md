@@ -12,7 +12,7 @@ I have created the two solution 1 is using go language code a bd second one is u
 ## Solution 1: go-lang code
 ### How to run go code.
 * .  go run filehandling.go
-above command will create the 100 files in current directory with names file_1.txt,file_3.txt.....file_100.txt
+Above command will create the 100 files in current directory with names file_1.txt,file_3.txt.....file_100.txt
 
 ## Solution 1: Bash shell script
 ### How to run shell script.
