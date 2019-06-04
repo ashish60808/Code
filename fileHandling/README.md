@@ -8,7 +8,7 @@
   contents of all of the previous files.
 * Write test-suite for your implementation.
 
-I have created the two solution 1 is using go language code a bd second one is using the Shell scripts.
+I have created the two solutions 1 is using go language code and second one is using the Shell scripts.
 ## Solution 1: go-lang code
 ### How to run go code.
 * .  go run filehandling.go
