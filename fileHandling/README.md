@@ -1,16 +1,4 @@
-# SRE Tech Challenge
-
-## Rules
-* Please include this file unmodified in your submission.
-* Feel free to use Google.
-* Don't copy someone else's code.
-* Keep it short - we don't expect an essay.
-* Please write a short README for the solution to each of the problems.
-* Please version your answer with one of the DVCS (git, hg, bzr).
-* Please submit your answer as a tar/zip of the entire local repository.
-
-
-## Exercises
+## Exercises 1
 ### Generate 100 files
 * Each file should contain a line with between 1 and 65 randomly chosen
   printable characters (both the number of the characters and the characters
@@ -20,17 +8,13 @@
   contents of all of the previous files.
 * Write test-suite for your implementation.
 
-### Write a Terraform code that
-* Creates an EC2 instance with
-  * The latest Ubuntu LTS AMI (AMI should be discovered dynamically, not hard-coded)
-  * A Security Group enabling access only on 22, 80, 443 from 5.148.131.186/32
-  * Uses SSH public key from path supplied as an variable (default value
-    ~/.ssh/id_rsa.pub)
-* Uses an S3 bucket as the Terraform backend (to store state)
+I have created the two solution 1 is using go language code a bd second one is using the Shell scripts.
+## Solution 1: go-lang code
+### How to run go code.
+* .  go run filehandling.go
+above command will create the 100 files in current directory with names file_1.txt,file_3.txt.....file_100.txt
 
-### Write a Dockerfile for redis
-* That uses the latest Ubuntu LTS Docker image as its base
-* That accepts port configuration from an environment variable when the server
-  is started
-* That accepts memory limit configuration from an environment variable when the
-  server is started
+# Solution 1: Bash shell script
+### How to run shell script.
+* .  chmod 766 && ./filehandling.sh
+above command will create the 100 files in /tmp/files  directory with names file_1.txt,file_3.txt.....file_100.txt
