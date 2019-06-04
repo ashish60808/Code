@@ -19,13 +19,12 @@ This will download AWS relate packages under.terraform directoy.
 * Created and Uses an S3 bucket as the Terraform backend (to store state) it is storing the terraform.state file under bucket
 
 
-I have put the follwowing file under .gitignore file.
+I have put the following file under .gitignore file.
 
 **/.terraform
 
 **/terraform.tfstate
 
 **/terraform.tfstate.backup
-
 
 **/terraform.tfvars
