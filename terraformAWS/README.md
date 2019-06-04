@@ -8,7 +8,7 @@
 * Uses an S3 bucket as the Terraform backend (to store state)
 
 I have created the terraform code that will provision the EC2 instance on AWS eu-east-2 region.
-## Solution : go-lang code
+## Solution : terraform code
 ### How to provision the EC2 instance.
 * .  terraform init
 This will download AWS relate packages under.terraform directoy.
