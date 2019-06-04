@@ -33,8 +33,8 @@ func main() {
 		if (remainder7 == 0) || (remainder7 == 0 && remainder5 == 0) {
 
 			for ii := 1; ii < i; ii++ {
-				fname := fmt.Sprintf("%s%d%s", "file_", ii, ".txt")
-				fname1 := fmt.Sprintf("%s%d%s", "file_", i, ".txt")
+				fname := fmt.Sprintf("%s%d%s", "/tmp/file_", ii, ".txt")
+				fname1 := fmt.Sprintf("%s%d%s", "/tmp/file_", i, ".txt")
 				file, _ := os.OpenFile(fname1, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 				data, _ := ioutil.ReadFile(fname)
 				str := string(data)
@@ -42,7 +42,7 @@ func main() {
 				defer file.Close()
 			}
 		} else if remainder5 == 0 {
-			fname := fmt.Sprintf("%s%d%s", "file_", i, ".txt")
+			fname := fmt.Sprintf("%s%d%s", "/tmp/file_", i, ".txt")
 			file, err := os.Create(fname)
 			if err != nil {
 				log.Fatal("Cannot create file", err)
@@ -50,7 +50,7 @@ func main() {
 			fmt.Fprintf(file, "This is 5th file")
 			defer file.Close()
 		} else {
-			fname := fmt.Sprintf("%s%d%s", "file_", i, ".txt")
+			fname := fmt.Sprintf("%s%d%s", "/tmp/file_", i, ".txt")
 			file, err := os.Create(fname)
 			if err != nil {
 				log.Fatal("Cannot create file", err)
