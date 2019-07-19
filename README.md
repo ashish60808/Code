@@ -1,13 +1,4 @@
-# SRE Tech Challenge
-
-## Rules
-* Please include this file unmodified in your submission.
-* Feel free to use Google.
-* Don't copy someone else's code.
-* Keep it short - we don't expect an essay.
-* Please write a short README for the solution to each of the problems.
-* Please version your answer with one of the DVCS (git, hg, bzr).
-* Please submit your answer as a tar/zip of the entire local repository.
+# Problem Statement
 
 
 ## Exercises
