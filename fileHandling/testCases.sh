@@ -2,6 +2,7 @@
 #Test case for this rule:
 # * Every 7th file ignores the previous two rules and contains the concatencated
 #   contents of all of the previous files.
+#   contents of all of the previous files.
 for i in {1..100} 
    do
    count_lines=`cat /tmp/files/file_$i.txt|wc -l`
